@@ -1,0 +1,39 @@
+{
+    "key": "group_5a181e1c1b4aa",
+    "title": "Course Color",
+    "fields": [
+        {
+            "key": "field_5a181d48bba1b",
+            "label": "Color",
+            "name": "color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#00b5ad"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "course_tree"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1511783824
+}

@@ -1,0 +1,129 @@
+{
+    "key": "group_5a12cb8237bc4",
+    "title": "Course Tree",
+    "fields": [
+        {
+            "key": "field_5a12cab5e6454",
+            "label": "Course Tree",
+            "name": "course_tree",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Videos",
+            "sub_fields": [
+                {
+                    "key": "field_5a12cac7e6455",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5a12cacfe6456",
+                    "label": "Videos",
+                    "name": "videos",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "Add Video",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a12cadbe6457",
+                            "label": "Course Video",
+                            "name": "course_video",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "video_course"
+                            ],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_5a16ce6804666",
+            "label": "First Video",
+            "name": "first_video",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "video_course"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "course_tree"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1511444313
+}
